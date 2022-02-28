@@ -45,14 +45,9 @@ nav {
   width: 90%;
   height: 100vh;
   position: absolute;
+  background-color: blue;
 }
-.hero_info {
-  height: 50vh;
-  width: 45%;
-  top: 23%;
-  position: absolute;
-  z-index: 1;
-}
+
 .hero_image_container {
   height: 90vh;
   width: 70%;
@@ -60,4 +55,31 @@ nav {
   right: 0;
   float: right;
   top: 0;
+  background-image: url("./assests/images/roombig.jpg");
+}
+
+.hero_info {
+  height: 50vh;
+  width: 45%;
+  top: 23%;
+  position: absolute;
+  z-index: 1;
+  background-color: rgb(108, 128, 145);
+}
+.info_container {
+  width: 50%;
+  height: 80%;
+  margin: auto;
+  top: 10%;
+  position: relative;
+}
+.infoTop {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: whitesmoke;
+  margin-bottom: 1rem;
+}
+.infoBottom {
+  font-size: 1rem;
+  color: whitesmoke;
 }
