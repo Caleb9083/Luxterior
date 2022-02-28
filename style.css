@@ -37,16 +37,18 @@ nav {
   width: 9%;
   justify-content: space-between;
 }
+.search,
+.hamburger {
+  font-size: 1.2rem;
+}
 .hero_container {
   width: 90%;
   height: 100vh;
   position: absolute;
-  background-color: blue;
 }
 .hero_info {
   height: 50vh;
   width: 45%;
-  background-color: rgb(255, 0, 0);
   top: 23%;
   position: absolute;
   z-index: 1;
@@ -54,7 +56,6 @@ nav {
 .hero_image_container {
   height: 90vh;
   width: 70%;
-  background-color: green;
   position: relative;
   right: 0;
   float: right;
