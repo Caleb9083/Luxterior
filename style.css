@@ -41,29 +41,25 @@ nav {
 .hamburger {
   font-size: 1.2rem;
 }
+.hero {
+  height: 100%;
+  width: 100%;
+}
 .hero_container {
   width: 90%;
   height: 100vh;
-  position: absolute;
-  background-color: blue;
 }
-
 .hero_image_container {
   height: 90vh;
   width: 70%;
-  position: relative;
-  right: 0;
   float: right;
-  top: 0;
   background-image: url("./assests/images/roombig.jpg");
 }
-
 .hero_info {
   height: 50vh;
   width: 45%;
-  top: 23%;
+  top: 35%;
   position: absolute;
-  z-index: 1;
   background-color: rgb(108, 128, 145);
 }
 .info_container {
@@ -82,4 +78,59 @@ nav {
 .infoBottom {
   font-size: 1rem;
   color: whitesmoke;
+}
+
+.services_container {
+  height: 70vh;
+  width: 80%;
+  margin: auto;
+}
+.services_head {
+  height: 20vh;
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+.services_head_mark {
+  height: 100%;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.line {
+  width: 100%;
+  height: 2%;
+  background-color: rgb(108, 128, 145);
+}
+.services_head_main {
+  font-size: 3rem;
+  font-weight: 700;
+  width: 70%;
+}
+.services_list {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 25vh;
+}
+.services_list_items {
+  width: 30%;
+  display: flex;
+}
+.service_icon {
+  width: 25%;
+  font-size: 3.5rem;
+}
+.service_info {
+  width: 75%;
+}
+.services_info_head {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+.services_info_description {
+  font-size: 1rem;
 }
