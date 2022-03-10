@@ -205,3 +205,68 @@ nav {
   width: fit-content;
   margin: 10px auto;
 }
+
+.expDesNum2 {
+  margin-top: 4rem;
+}
+.expDesNumItems2 {
+  height: 20vh;
+  margin-bottom: 1rem;
+}
+.expDesItemHead {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+.num_container {
+  width: 10%;
+}
+.num {
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  background-color: var(--gray);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: white;
+}
+.expDesNumItemHeadMain {
+  width: 80%;
+  font-size: 2rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+.expDesItemBody {
+  display: flex;
+}
+.someLine {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+}
+.theLineContainer {
+  width: 54%;
+}
+.theLine {
+  height: 100%;
+  width: 2px;
+  background-color: var(--gray);
+}
+.small {
+  width: 70%;
+  color: var(--fontcolor);
+}
+.long {
+  height: 90vh;
+}
+
+.testimony_container {
+  height: 70vh;
+  width: 100%;
+  margin: auto;
+  background-color: yellow;
+}
